@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniket's Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="./logo new.png">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="./index.html"><img src="./logo new.png" alt=""></a>
+        </div>
+        <div class="nav">
+            <ul>
+                <button onclick="document.getElementById('home1').scrollIntoView({ behavior: 'smooth' });">Home</button>
+                <button
+                    onclick="document.getElementById('project1').scrollIntoView({ behavior: 'smooth' });">Projects</button>
+                <button
+                    onclick="document.getElementById('aboutme1').scrollIntoView({ behavior: 'smooth' });">About</button>
+                <button
+                    onclick="document.getElementById('contact1').scrollIntoView({ behavior: 'smooth' });">Contact</button>
+            </ul>
+        </div>
+
+    </header>
+
+    <section class="sectionFirst">
+        <div class="section1">
+            <p style="color: rgb(201, 115, 34); font-size: 15px;">HELLO, I'M</p>
+            <h1 style="font-size: 35px;">PAWAR <a href=""
+                    style="text-decoration: none; color: rgb(201, 115, 34);">ANIKET</a></h1>
+            <h1 style="font-size: 35px;">A Designer</h1>
+            <p style="text-align: center; max-width: 500px; margin-top: 30px;">I'm Aniket, a third-year B.Tech student
+                passionate about web development. I've worked on various web projects, gaining hands-on experience in
+                creating functional and visually appealing websites.
+            </p>
+            <div class="links" style="display: flex; align-items: center; flex-direction: row; gap: 30px;">
+                <a href="https://www.youtube.com/@Martin_The_Kid"><img src="./yt.png" alt="" style="height: 50px;"></a>
+                <a href="https://www.linkedin.com/in/aniketpawar25/"><img src="./Linkedin.png" alt=""
+                        style="height: 37px;"></a>
+                <a href="https://www.instagram.com/ui_ux_artist?igsh=ZmwxbzAzYzBoeTc5"><img src="./instagram.png" alt=""
+                        style="height: 35px;"></a>
+                <a href="https://github.com/ANIKET0102"><img src="./GitHub.png" alt="" style="height: 50px;"></a>
+            </div>
+
+        </div>
+        <div class="section2">
+            <img src="./photo2.png" alt="" style="width: 60%;">
+
+        </div>
+    </section>
+
+    <div class="sectionSecond">
+        <div class="sectionSecondOne">
+            <div class="secondSectionOneOne">
+                <h1 style="font-size: 40px;   color: rgb(201, 115, 34);">UI/UX</h1>
+                <h1 style="font-size: 40px;   color: rgb(201, 115, 34);">Projects</h1>
+                <p style="color: #fff; max-width: 400px;">I have successfully created over 50 UI/UX designs using Figma,
+                    showcasing my ability to craft
+                    visually appealing and user-centric digital experiences.</p>
+            </div>
+            <div class="secondSectionOneTwo">
+                <a href="./UIUX.html"><img src="./1.png" alt=""
+                        style="height: 270px; border-radius: 20px; width: 100%;"></a>
+                <button><a href="./UIUX.html">More Projects</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="project1">
+        <div class="cards">
+            <div class="maincard">
+                <div class="cardcontent">
+                    <h3>Lenskart</h3>
+                    <img src="./img/Flipkart.png" alt="">
+                    <p style="margin-bottom: 45px;">This Lenskart clone was developed by me using HTML and CSS.</p>
+                    <button type="submit"><a href="https://aniket0102.github.io/Lenskart-Clone/">Visit Live</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="maincard">
+                <div class="cardcontent">
+                    <h3>Carwala</h3>
+                    <img src="./img/carwala.png" alt="">
+                    <p>I developed this project using HTML, CSS, Bootstrap, Python, and Django, handling both the
+                        frontend and backend with data managed on the backend.</p>
+                    <button type="submit" style="width: auto;"><a
+                            href="https://github.com/ANIKET0102/Django-Project-Carwala">Visit Repository</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="maincard">
+                <div class="cardcontent">
+                    <h3>Userlogin</h3>
+                    <img src="./img/Userlogin.png" alt="">
+                    <p>I developed the "UserLogin" project using HTML, CSS, JavaScript, Bootstrap, Django, and Python,
+                        handling both frontend and backend, with data storage in the backend.</p>
+                    <button type="submit" style="width: auto;"><a href="https://github.com/ANIKET0102/User-Login">Visit
+                            Repository</a></button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- <div class="container" id="project1">
+        <div class="cards">
+            <div class="maincard">
+                <div class="cardcontent">
+                    <h3>Lenskart</h3>
+                    <img src="./img/Flipkart.png" alt="">
+                    <p style="margin-bottom: 45px;">This Lenskart clone was developed by me using HTML and CSS.</p>
+                    <button type="submit"><a href="">More Info</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="maincard">
+                <div class="cardcontent">
+                    <h3>Carwala</h3>
+                    <img src="./img/carwala.png" alt="">
+                    <p>I developed this project using HTML, CSS, Bootstrap, Python, and Django, handling both the
+                        frontend and backend with data managed on the backend.</p>
+                    <button type="submit"><a href="">More Info</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="maincard">
+                <div class="cardcontent">
+                    <h3>Userlogin</h3>
+                    <img src="./img/Userlogin.png" alt="">
+                    <p>I developed the "UserLogin" project using HTML, CSS, JavaScript, Bootstrap, Django, and Python,
+                        handling both frontend and backend, with data storage in the backend.</p>
+                    <button type="submit"><a href="">More Info</a></button>
+                </div>
+            </div>
+        </div>
+
+
+    </div> -->
+
+    <div class="aboutme" id="aboutme1">
+        <h1>About Me</h1>
+        <p>
+        <h1>Aniket Pawar</h1>
+        </p>
+        <p>
+        <h2>B.Tech in Computer Science | 3rd Year</h2>
+        </p>
+        <p>
+            I am a 3rd-year Computer Science engineering student with a strong foundation in both frontend and backend
+            development. Alongside my technical expertise, I possess skills in team management and leadership, having
+            led multiple team-based projects. I am currently working on various projects to further enhance my skills
+            and gain hands-on experience in full-stack development. I am passionate about leveraging my knowledge to
+            build innovative solutions and continuously improve my abilities in web development and beyond.</p>
+        <div class="sociallinks" id="contact1">
+            <a href="https://www.youtube.com/@Martin_The_Kid"><img src="./yt.png" alt="" style="height: 75px;"></a>
+            <a href="https://github.com/ANIKET0102"><img src="./GitHub.png" alt="" style="height: 65px;"></a>
+            <a href="https://www.instagram.com/ui_ux_artist?igsh=ZmwxbzAzYzBoeTc5"><img src="./instagram.png" alt=""
+                    style="height: 50px;"></a>
+            <a href="https://www.linkedin.com/in/aniketpawar25/"><img src="./Linkedin.png" alt=""
+                    style="height: 50px;"></a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="box1">
+            <h1>60+</h1>
+            <p>UI/UX Projects</p>
+        </div>
+        <!-- <div class="box2">
+            <h1>2</h1>
+            <p>Clones</p>
+        </div> -->
+        <div class="box3">
+            <h1>5+</h1>
+            <p>Completed Projects</p>
+        </div>
+        <div class="box4">
+            <h1>5+</h1>
+            <p>Mega Projects</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
