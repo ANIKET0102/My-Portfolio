@@ -1,4 +1,4 @@
-yeMy Portfolio
+My Portfolio
 This is a personal portfolio website built to showcase my projects, skills, and experience as a web developer. The portfolio is designed to highlight my expertise in HTML, CSS, and JavaScript, as well as my ability to create responsive, modern web designs.
 
 Features
